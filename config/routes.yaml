@@ -1,3 +1,20 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+
+my_form:
+  path: /my-form
+  controller: App\Controller\MyFirstController::myForm
+
+greeting:
+  path: /greeting
+  controller: App\Controller\MyFirstController::greeting
+
+my_form2:
+  path: /my-form2
+  controller: App\Controller\MySecondController::myForm
+
+greeting2:
+  path: /greeting2
+  controller: App\Controller\MySecondController::greeting
