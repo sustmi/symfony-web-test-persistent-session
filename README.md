@@ -2,7 +2,7 @@ Install:
 ```
 composer install
 npm install
-npm encore dev
+npm run dev
 ```
 
 Run tests:
